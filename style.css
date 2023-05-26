@@ -1,0 +1,32 @@
+:root {
+    --cor-de-fundo: #ffffffff;
+    --cor-de-cabecalho: #dfb6d6;
+    --fundo-menu: #9b4848;
+    }
+
+body {
+    background-color: aqua;
+   }
+
+.cabecalho {
+    background-color: var(--cor-cabecalho);
+    text-align: center;
+}
+
+    .cabecalho-titulo{
+        font-size: 36px;
+    font-weight: 700;
+padding: 12px;
+text-align: center;}
+
+
+.cabecalho-menu {background-color: #dfb6d6;}
+
+.cabecalho-menu-item{display: block;
+    padding: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color:aquamarine;
+    text-align: center;
+    border: 1px solid;
+}
